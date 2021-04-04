@@ -8,7 +8,7 @@
                 <a href="/about">Start Learn!</a>
             </div>
             <div class="button-about">
-                <a href="/about">About пасхалка</a>
+                <a href="/about">About пасхалка1</a>
             </div>
            </div>
         </div>
