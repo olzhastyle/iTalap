@@ -1,25 +1,67 @@
 <template>
 <div>
       <div class="qwert">
-          <h1>Our Lessons</h1>
-          <div class="robotics">
+          <h1>Аудитория:</h1>
+          <div class="legowedo">
                 <img src="../assets/robotic.jpg" alt="">
-                <div class="robotics1">
-                    <h2>Robotics</h2>
+                <div class="legowedo1">
+                    <h2>Lego Wedo</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
                 </div>
           </div>
-          <div class="coding">
-              <img src="../assets/coding.jpg" alt="">
-              <div class="coding1">
-                    <h2>Coding</h2>
+          <div class="scratch">
+              <img src="../assets/scratch.jpg" alt="">
+              <div class="scratch1">
+                    <h2>Scratch</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
               </div>
           </div>
-          <div class="language">
-              <img src="../assets/language.png" alt="">
-              <div class="language1">
-                    <h2>Language</h2>
+          <div class="mindstorm">
+              <img src="../assets/mindstorm.jpg" alt="">
+              <div class="mindstorm1">
+                    <h2>Lego Mindstorm</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
+              </div>
+          </div>
+          <div class="python">
+                <img src="../assets/coding.jpg" alt="">
+                <div class="python1">
+                    <h2>Python</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
+                </div>
+          </div>
+          <div class="arduino">
+              <img src="../assets/arduino.png" alt="">
+              <div class="arduino1">
+                    <h2>Arduino</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
+              </div>
+          </div>
+          <div class="webdev">
+              <img src="../assets/webdev.png" alt="">
+              <div class="webdev1">
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
+              </div>
+          </div>
+          <div class="mobwebdev">
+                <img src="../assets/mobappdev.jpg" alt="">
+                <div class="mobwebdev1">
+                    <h2>Mobile application development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
+                </div>
+          </div>
+          <div class="animation">
+              <img src="../assets/3d.jpg" alt="">
+              <div class="animation1">
+                    <h2>3D анимация</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
+              </div>
+          </div>
+          <div class="robotech">
+              <img src="../assets/robots.jpg" alt="">
+              <div class="robotech1">
+                    <h2>Робототехника</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
               </div>
           </div>
@@ -52,6 +94,8 @@ export default {
 .qwert h1{
     margin: left;
     padding-top: 25px;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 /* h2 {
     padding-top: 30px;
@@ -63,13 +107,13 @@ p {
     margin: auto;
 } */
 
-img {
+.qwert img {
     border-radius: 25px;
     opacity: 1;
     display: block;
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
+    width: 90%;
+    max-width: 700px;
+    height: 405px;
     margin: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -78,12 +122,13 @@ img {
 }
 
 /* ROBOTICS */
-.robotics {
+.legowedo {
   position: relative;
+  float: left;
+  height: 445px;
   width: 50%;
-  margin: auto;
 }
-.robotics1 {
+.legowedo1 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -93,25 +138,25 @@ img {
   -ms-transform: translate(-50%, -50%)
 }
 
-.robotics:hover img {
+.legowedo:hover img {
   opacity: 0.2;
 }
 
-.robotics:hover .robotics1 {
+.legowedo:hover .legowedo1 {
   opacity: 1;
 }
-.robotics1 p{
+.legowedo1 p{
     font-size: 24px;
     font-weight: 450;
 }
 /* CODING */
-.coding {
+.scratch {
   position: relative;
+  float: left;
   width: 50%;
-  margin: auto;
+  height: 445px;
 }
-
-.coding1 {
+.scratch1 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -121,25 +166,25 @@ img {
   -ms-transform: translate(-50%, -50%)
 }
 
-.coding:hover img {
+.scratch:hover img {
   opacity: 0.2;
 }
 
-.coding:hover .coding1 {
+.scratch:hover .scratch1 {
   opacity: 1;
 }
-.coding1 p{
+.scratch1 p{
     font-size: 24px;
     font-weight: 450;
 }
-/* LANGUAGE */
-.language {
+/* MINDSTORM */
+.mindstorm {
   position: relative;
+  float: left;
   width: 50%;
-  margin: auto;
+  height: 445px;
 }
-
-.language1 {
+.mindstorm1 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -149,16 +194,182 @@ img {
   -ms-transform: translate(-50%, -50%)
 }
 
-.language:hover img {
+.mindstorm:hover img {
   opacity: 0.2;
 }
 
-.language:hover .language1 {
+.mindstorm:hover .mindstorm1 {
   opacity: 1;
 }
-.language1 p{
+.mindstorm p{
     font-size: 24px;
     font-weight: 450;
 }
+/* PYTHON */
+
+.python {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 445px;
+}
+.python1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.python:hover img {
+  opacity: 0.2;
+}
+
+.python:hover .python1 {
+  opacity: 1;
+}
+.python p{
+    font-size: 24px;
+    font-weight: 450;
+}
+.arduino {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 445px;
+}
+.arduino1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.arduino:hover img {
+  opacity: 0.2;
+}
+
+.arduino:hover .arduino1 {
+  opacity: 1;
+}
+.arduino p{
+    font-size: 24px;
+    font-weight: 450;
+}
+.webdev {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 445px;
+}
+.webdev1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.webdev:hover img {
+  opacity: 0.2;
+}
+
+.webdev:hover .webdev1 {
+  opacity: 1;
+}
+.webdev p{
+    font-size: 24px;
+    font-weight: 450;
+}
+.mobwebdev {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 445px;
+}
+.mobwebdev1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.mobwebdev:hover img {
+  opacity: 0.2;
+}
+
+.mobwebdev:hover .mobwebdev1 {
+  opacity: 1;
+}
+.mobwebdev p{
+    font-size: 24px;
+    font-weight: 450;
+}
+.animation {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 445px;
+}
+.animation1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.animation:hover img {
+  opacity: 0.2;
+}
+
+.animation:hover .animation1 {
+  opacity: 1;
+}
+.animation p{
+    font-size: 24px;
+    font-weight: 450;
+}
+/* 
+ .robotech {
+  position: absolute;
+  width: 50%;
+  height: 445px;
+  margin: auto;
+  float: none;
+}
+.robotech1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.robotech:hover img {
+  opacity: 0.2;
+}
+
+.robotech:hover .robotech1 {
+  opacity: 1;
+}
+.robotech1 p{
+    font-size: 24px;
+    font-weight: 450;
+} */
 
 </style>

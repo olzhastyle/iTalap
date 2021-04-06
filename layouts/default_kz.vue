@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <div class="salem125">
+  <div class="salem">
     <Navbar/>
   </div>
   
@@ -31,7 +31,7 @@ export default {
 div{
   scroll-behavior: smooth;
 }
-.salem125 {
+.salem {
   text-align: center;
   position: fixed;
   width: 100%;

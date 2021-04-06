@@ -3,9 +3,9 @@
         <section>
             <div class="a1">
                 <h1>
-                    Мектеп туралы:
+                    Who we are?
                 </h1>
-                <p>Біз мектеп оқушыларына арнайы курстарды өткіземіз.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis incidunt natus, dolores officia nostrum velit necessitatibus cumque nisi optio modi debitis? Quas voluptatum voluptatibus doloribus quam laborum aliquid ad facilis.</p>
 
             </div>
         </section>

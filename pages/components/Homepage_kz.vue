@@ -5,10 +5,10 @@
             <p>Talapty elge nur jauar!</p>
            <div class="button">
             <div class="button-start">
-                <a href="/about">Курсқа жазылу!</a>
+                <a href="/about">Bastau!</a>
             </div>
             <div class="button-about">
-                <a href="/about">Курстар туралы...</a>
+                <a href="/about">About</a>
             </div>
            </div>
         </div>

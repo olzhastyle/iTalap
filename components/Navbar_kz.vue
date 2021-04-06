@@ -7,24 +7,24 @@
         <ul class="navbar-nav">
         <li class="nav-item">
             <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">
-            Үйге
+            Home
             </nuxt-link>
         </li>
         <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/about">
-            Аудитория
+            About
             </nuxt-link>
         </li>
         <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/contacts">
-            Байланыс
+            Contacts
             </nuxt-link>
         </li>
         </ul>
     </div>
     </nav>
-    <!-- <a class="kz" href="/">KZ</a>
-    <a class="ru" href="/">RU</a> -->
+    <a class="kz" href="/">KZ</a>
+    <a class="ru" href="/">RU</a>
 </div>
 </template>
 

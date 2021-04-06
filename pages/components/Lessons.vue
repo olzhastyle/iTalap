@@ -7,27 +7,53 @@
                 </h1>
                 <div class="text">
 
-                    <div class="text1">
+                     <div class="text3">
                         <a href="/about">
-                            Robotics
+                            Lego Wedo
+                        </a>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
+                        <a href="/about">
+                            Scratch
+                        </a>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
+                    </div>
+                     <div class="text2">
+                        <a href="/about">
+                            Web development
+                        </a>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
+                    </div>
+                    <div class="text3">
+                        <a href="/about">
+                            Lego Mindstorm
+                        </a>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
+                        <a href="/about">
+                            Python
                         </a>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
 
                     </div>
-                    <div class="text2">
+                   <div class="text1">
                         <a href="/about">
-                            Coding
+                            Arduino
                         </a>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
-                        
+
                     </div>
+                   
                     <div class="text3">
                         <a href="/about">
-                            Language
+                            Mobile application development
                         </a>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
-                        
+                        <a href="/about">
+                            Робототехника
+                        </a>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
+
                     </div>
+                   
                 </div>
             </div>
         </section>
