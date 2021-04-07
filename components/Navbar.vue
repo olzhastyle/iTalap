@@ -23,12 +23,34 @@
         </ul>
     </div>
     </nav>
+    <a href="https://www.instagram.com/olzhastyle/">
+        <img class="imageinstagram78963" src="../pages/components/assets/instagram.png" alt="">
+    </a>
+    <a href="https://www.instagram.com/olzhastyle/">
+        <img class="imagewhatsapp78963" src="../pages/components/assets/whatsapp.png" alt="">
+    </a>
     <!-- <a class="kz" href="/">KZ</a>
     <a class="ru" href="/">RU</a> -->
 </div>
 </template>
 
 <style scoped>
+.imageinstagram78963 {
+    filter: invert(1);
+    width: 45px;
+    float: right;
+    right: 20%;
+    position: absolute;
+    top: 25px;
+}
+.imagewhatsapp78963 {
+    filter: invert(1);
+    width: 75px;
+    float: right;
+    right: 15%;
+    position: absolute;
+    top: 10px;
+}
 .navbar {
   float: none;
   left: 44%;

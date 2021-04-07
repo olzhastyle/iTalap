@@ -10,47 +10,54 @@
                      <div class="text3">
                         <a href="/about">
                             Lego Wedo
+                            <img class="imageall123" src="../../assets/robotic.jpg" alt="">
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
                         <a href="/about">
                             Scratch
+                            <img class="imageall123" src="../../assets/scratch.jpg" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
                     </div>
                      <div class="text2">
                         <a href="/about">
                             Web development
+                            <img class="imageall123" src="../../assets/webdev.png" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
                     </div>
                     <div class="text3">
                         <a href="/about">
                             Lego Mindstorm
+                            <img class="imageall123" src="../../assets/mindstorm.jpg" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
                         <a href="/about">
                             Python
+                            <img class="imageall123" src="../../assets/coding.jpg" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
 
                     </div>
-                   <div class="text1">
+                   <div class="text2">
                         <a href="/about">
                             Arduino
+                            <img class="imageall123" src="../../assets/arduino.png" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
 
                     </div>
                    
                     <div class="text3">
                         <a href="/about">
                             Mobile application development
+                            <img class="imageall123" src="../../assets/mobappdev.jpg" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
                         <a href="/about">
                             Робототехника
+                            <img class="imageall123" src="../../assets/robots.jpg" alt="">
+
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, assumenda voluptatem autem, atque cum consequatur saepe cumque corporis iusto sit maiores ratione sequi mollitia impedit voluptatum sint adipisci dicta quia.</p>
 
                     </div>
                    
@@ -98,6 +105,8 @@
 .text2 {
     width: 20%;  
     margin: auto; 
+    position: relative; 
+    text-align: center;
 }
 .text3 {
     width: 20%;
@@ -113,5 +122,9 @@
 .text p{
     font-size: 16px;
     margin-top: 20px;
+}
+.imageall123 {
+    width: 400px;
+    align-content: center;
 }
 </style>

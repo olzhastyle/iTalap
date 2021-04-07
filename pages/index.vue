@@ -3,8 +3,9 @@
       <div class="qwert111">
         <!-- <Nuxt /> -->
       <Homepage />
-      <Aboutus />
-      <Lessons />
+     <!--  <Aboutus /> -->
+      <!-- <Lessons /> -->
+      <Lessonskz />
       </div>
 </div>
 </template>
@@ -13,13 +14,15 @@
 import Homepage from '../pages/components/Homepage.vue';
 import Aboutus from '../pages/components/Aboutus.vue';
 import Lessons from '../pages/components/Lessons.vue';
+import Lessonskz from '../pages/components/Lessonskz.vue';
 
 
 export default {
   components:{
     Homepage,
     Aboutus,
-    Lessons
+    Lessons,
+    Lessonskz
   }
 }
 </script>

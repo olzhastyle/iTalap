@@ -1,5 +1,8 @@
 <template>
     <div class="main bg-dark text-center text-white">
+        <div class="image445566">
+            <img src="../../assets/logo1.png" alt="">
+        </div>
         <div class="text">
             <h1>iTalap</h1>
             <p>Talapty elge nur jauar!</p>
@@ -25,6 +28,13 @@
     padding-bottom: 5px;
     position: relative;
     margin: auto;
+}
+.image445566 img{
+    border: none;
+    position: absolute;
+    float: left;
+    left: 2px;
+    top: -50px;
 }
 .text {
     text-align: center;
