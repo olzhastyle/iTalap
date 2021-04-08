@@ -2,7 +2,7 @@
 <div class="navbar-main">
     <img class="oyuimage12" src="../assets/oyu.png" alt="">
     <img class="oyuimage123" src="../assets/oyu.png" alt="">
-    <a class="navbar-brand" href="/"><img src="../assets/logo1.png" alt=""></a>
+    <a class="navbar-brand" href="/"><img class="logologo123" src="../assets/logo/white_transparent.png" alt=""></a>
     <nav class="navbar navbar-expand-lg navbar-light">
 
     <div class="collapse navbar-collapse">
@@ -94,6 +94,10 @@ img{
     border: none;
     width: 160px;
 
+}
+.logologo123{
+    position: absolute;
+    top: -20px;
 }
 .kz{
     float: none;
