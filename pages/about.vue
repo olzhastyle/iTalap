@@ -1,6 +1,6 @@
 <template>
 <div>
-      <div class="qwert">
+      <div class="qwert1254">
           <h1>Аудитория:</h1>
           <div class="legowedo">
                 <img src="../assets/robotic.jpg" alt="">
@@ -58,7 +58,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perspiciatis delectus eligendi? Dignissimos, vero maxime, aperiam corporis inventore incidunt amet aliquam facere maiores hic obcaecati accusamus error facilis nisi nulla!</p>
               </div>
           </div>
-          <div class="robotech">
+          <div class="robotech115599">
               <img src="../assets/robots.jpg" alt="">
               <div class="robotech1">
                     <h2>Робототехника</h2>
@@ -83,7 +83,7 @@ export default {
 
 <style>
 
-.qwert {
+.qwert1254 {
   position: relative;
   margin-top: auto;
   padding-top: 35px;
@@ -91,7 +91,7 @@ export default {
   text-align: center;
   margin: 0 auto;
 }
-.qwert h1{
+.qwert1254 h1{
     margin: left;
     padding-top: 25px;
     margin-top: 3%;
@@ -107,7 +107,7 @@ p {
     margin: auto;
 } */
 
-.qwert img {
+.qwert1254 img {
     border-radius: 25px;
     opacity: 1;
     display: block;
@@ -343,7 +343,7 @@ p {
     font-weight: 450;
 }
 /* 
- .robotech {
+ .robotech115599 {
   position: absolute;
   width: 50%;
   height: 445px;
@@ -360,11 +360,11 @@ p {
   -ms-transform: translate(-50%, -50%)
 }
 
-.robotech:hover img {
+.robotech115599:hover img {
   opacity: 0.2;
 }
 
-.robotech:hover .robotech1 {
+.robotech115599:hover .robotech1 {
   opacity: 1;
 }
 .robotech1 p{

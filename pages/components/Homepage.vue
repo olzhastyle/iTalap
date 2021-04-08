@@ -1,7 +1,9 @@
 <template>
     <div class="main bg-dark text-center text-white">
         <div class="image445566">
-            <img src="../../assets/logo1.png" alt="">
+            <img class="imagelearning1234" src="../../assets/learning2.png" alt="">
+            <img class="imagelearning123" src="../../assets/learning1.png" alt="">
+            <!-- <img src="../../assets/logo1.png" alt=""> -->
         </div>
         <div class="text">
             <h1>iTalap</h1>
@@ -29,13 +31,13 @@
     position: relative;
     margin: auto;
 }
-.image445566 img{
+/* .image445566 img{
     border: none;
     position: absolute;
     float: left;
     left: 2px;
     top: -50px;
-}
+} */
 .text {
     text-align: center;
     position: relative;
@@ -93,10 +95,29 @@
     text-decoration: none;
     background-color: transparent;
 }
-img {
+/* img {
     position: absolute;
     margin: auto;
     border: 20px solid;
+
+} */
+.imagelearning123 {
+    filter: opacity(0.15);
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    width: 850px;
+
+
+}
+.imagelearning1234 {
+    filter: opacity(0.15);
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    width: 850px;
+
+
 }
 
 </style>

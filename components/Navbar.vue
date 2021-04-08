@@ -1,5 +1,7 @@
 <template>
 <div class="navbar-main">
+    <img class="oyuimage12" src="../assets/oyu.png" alt="">
+    <img class="oyuimage123" src="../assets/oyu.png" alt="">
     <a class="navbar-brand" href="/"><img src="../assets/logo1.png" alt=""></a>
     <nav class="navbar navbar-expand-lg navbar-light">
 
@@ -35,11 +37,25 @@
 </template>
 
 <style scoped>
+
+.oyuimage12 {
+    filter: opacity(0.3);
+    position: absolute;
+    left: 20px;
+    width: 400px;
+}
+.oyuimage123 {
+    filter: opacity(0.3);
+    position: absolute;
+    right: 20px;
+    width: 400px;
+}
+
 .imageinstagram78963 {
     filter: invert(1);
     width: 45px;
     float: right;
-    right: 20%;
+    right: 30%;
     position: absolute;
     top: 25px;
 }
@@ -47,7 +63,7 @@
     filter: invert(1);
     width: 75px;
     float: right;
-    right: 15%;
+    right: 25%;
     position: absolute;
     top: 10px;
 }
