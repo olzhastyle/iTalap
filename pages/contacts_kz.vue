@@ -1,23 +1,18 @@
 <template>
 <div>
-      <div class="qwert">
-          <h1>Бізбен байланыс:</h1>
-            <p>Түркістан қ., Б. Саттарханов даңғылы 64</p>
+      <div class="qwert1122">
+          <h1>Бізбен байланыс</h1>
+            <p></p>
       </div>
-
-      <Form />
 </div>
 </template>
 
 <script>
 
 
-import Form from '../pages/components/Form.vue';
 
 export default {
-  
   components:{
-    Form
 
   }
 }
@@ -25,7 +20,7 @@ export default {
 
 <style>
 
-.qwert {
+.qwert1122 {
   position: relative;
   margin-top: auto;
   padding-top: 35px;

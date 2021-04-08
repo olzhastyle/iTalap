@@ -1,72 +1,34 @@
 <template>
 <div class="navbar-main">
-    <img class="oyuimage12" src="../assets/oyu.png" alt="">
-    <img class="oyuimage123" src="../assets/oyu.png" alt="">
-    <a class="navbar-brand" href="/"><img class="logologo123" src="../assets/logo/white_transparent.png" alt=""></a>
+    <a class="navbar-brand" href="/"><img src="../assets/logo1.png" alt=""></a>
     <nav class="navbar navbar-expand-lg navbar-light">
 
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
         <li class="nav-item">
             <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">
-            Үйге
+            Home
             </nuxt-link>
         </li>
         <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/about">
-            Аудитория
+            About
             </nuxt-link>
         </li>
         <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/contacts">
-            Байланыс
+            Contacts
             </nuxt-link>
         </li>
         </ul>
     </div>
     </nav>
-    <a href="https://www.instagram.com/olzhastyle/">
-        <img class="imageinstagram78963" src="../pages/components/assets/instagram.png" alt="">
-    </a>
-    <a href="https://www.instagram.com/olzhastyle/">
-        <img class="imagewhatsapp78963" src="../pages/components/assets/whatsapp.png" alt="">
-    </a>
-    <!-- <a class="kz" href="/">KZ</a>
-    <a class="ru" href="/">RU</a> -->
+    <a class="kz" href="/">KZ</a>
+    <a class="ru" href="/">RU</a>
 </div>
 </template>
 
 <style scoped>
-
-.oyuimage12 {
-    filter: opacity(0.3);
-    position: absolute;
-    left: 20px;
-    width: 400px;
-}
-.oyuimage123 {
-    filter: opacity(0.3);
-    position: absolute;
-    right: 20px;
-    width: 400px;
-}
-
-.imageinstagram78963 {
-    filter: invert(1);
-    width: 45px;
-    float: right;
-    right: 30%;
-    position: absolute;
-    top: 25px;
-}
-.imagewhatsapp78963 {
-    filter: invert(1);
-    width: 75px;
-    float: right;
-    right: 25%;
-    position: absolute;
-    top: 10px;
-}
 .navbar {
   float: none;
   left: 44%;
@@ -94,10 +56,6 @@ img{
     border: none;
     width: 160px;
 
-}
-.logologo123{
-    position: absolute;
-    top: -20px;
 }
 .kz{
     float: none;
