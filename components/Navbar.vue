@@ -25,10 +25,10 @@
         </ul>
     </div>
     </nav>
-    <a href="https://www.instagram.com/olzhastyle/">
+    <a href="https://www.instagram.com/italap_turkestan/">
         <img class="imageinstagram78963" src="../pages/components/assets/instagram.png" alt="">
     </a>
-    <a href="https://www.instagram.com/olzhastyle/">
+    <a href="https://www.instagram.com/italap_turkestan/">
         <img class="imagewhatsapp78963" src="../pages/components/assets/whatsapp.png" alt="">
     </a>
     <!-- <a class="kz" href="/">KZ</a>

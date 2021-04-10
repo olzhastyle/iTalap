@@ -39,7 +39,7 @@
         </div>
          <div class="col-lg-3">
           <h5 class="text-uppercase">Байланыс</h5>
-          <a href="https://www.instagram.com/olzhastyle/">
+          <a href="https://www.instagram.com/italap_turkestan/">
             <img class="instagramfooter" src="./assets/instagram.png" alt="#">
           </a>
           <a href="http://sendamessage.to/">
@@ -59,7 +59,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2021 Turkistan:
-    <a class="text-white" href="/home">iTalap.kz</a>
+    <a class="text-white" href="/">i-talap.kz</a>
   </div>
   <!-- Copyright -->
 </footer>

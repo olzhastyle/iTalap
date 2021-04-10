@@ -6,6 +6,7 @@
      <!--  <Aboutus /> -->
       <!-- <Lessons /> -->
       <Lessonskz />
+      <Aboutus />
       </div>
 </div>
 </template>
