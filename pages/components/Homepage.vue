@@ -7,7 +7,7 @@
         </div>
         <div class="text">
             <h1>iTalap</h1>
-            <p>Talapty elge nur jauar!</p>
+            <p>Талаптыға нұр жауар!</p>
            <div class="button">
             <div class="button-start">
                 <a href="/about">Курсқа жазылу!</a>
