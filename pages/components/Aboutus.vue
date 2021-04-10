@@ -2,20 +2,20 @@
 
     <div class="main">
         <section>
-            <!-- <div class="a1">
+            <div class="a1">
                 <h1>
                     Біздің команда:
                 </h1>
                     <div class="carousel">
-                        <ul>
+                        <ul class="carousel__main1">
                             <li id="carousel__slide1">
                                 <div class="carousel-container">
                                     <img class="avatar147" src="../../assets/aboutus/manap.jpeg" alt="">
                                     <h2>Шымыр Манап</h2>
                                     <p class="textabout">Шымыр Манап - "Болашақ" бағдарламасы бойынша Мюнхен техникалық университетінің (Германия) магистранты. Қазақстан даму банкінде стратегия және үлкен деректерді талдау департаментінің бас маманы. </p>
                                     <p class="textabout">“Заманауи технологияның күннен күнге ғарыш жылдамдығымен дамуы және олардың адам өмірінің ажырамас бөлігі болып жатқаны баршаға мәлім. Қазіргі таңда және болашақта заманның даму бағытына ілесу және кез келген саланың білікті маманы болу үшін IT саласын білу қажет. Себебі IT - ақылды тетіктер саласы. Түркістан жастарының  заманауи салада өз орнын табуына және талаптының талабын ашуға игі ықпал ету мақсатында "ITalap" бағдарламалау және робототехника оқу орталығын ашуды жөн көрдік. “</p>
-                                    <a href="#carousel__slide5" class="carousel__prev">go to next slide</a>
-                                    <a href="#carousel__slide2" class="carousel__next">go to next slide</a>
+                                    <a href="#carousel__slide5" class="carousel__prev"><img src="../../assets/navigation/right.png" alt=""></a>
+                                    <a href="#carousel__slide2" class="carousel__next"><img src="../../assets/navigation/left.png" alt=""></a>
                                 </div>
                             </li>
                             <li id="carousel__slide2">
@@ -24,8 +24,8 @@
                                     <h2>Әбдірахман Олжас</h2>
                                     <p class="textabout">Әбдірахман Олжас - "Ғарыштық инженерия" мамандығының магистранты. Қазақстан ғарыш орталығының инженері, Front-End, android developer.  </p>
                                     <p class="textabout">"Кел, балалар, оқылық, <br> Оқығанды көңілге <br> Ықыласпен тоқылық!" <br> (c)Ыбырай Алтынсарин</p>
-                                    <a href="#carousel__slide1" class="carousel__prev">go to next slide</a>
-                                    <a href="#carousel__slide3" class="carousel__next">go to next slide</a>
+                                    <a href="#carousel__slide1" class="carousel__prev"><img src="../../assets/navigation/right.png" alt=""></a>
+                                    <a href="#carousel__slide3" class="carousel__next"><img src="../../assets/navigation/left.png" alt=""></a>
                                 </div>
                             </li>
                             <li id="carousel__slide3">
@@ -34,8 +34,8 @@
                                     <h2>Зулкарнаева Дамира</h2>
                                     <p class="textabout">текст </p>
                                     <p class="textabout">текст цитата</p>
-                                    <a href="#carousel__slide2" class="carousel__prev">go to next slide</a>
-                                    <a href="#carousel__slide4" class="carousel__next">go to next slide</a>
+                                    <a href="#carousel__slide2" class="carousel__prev"><img src="../../assets/navigation/right.png" alt=""></a>
+                                    <a href="#carousel__slide4" class="carousel__next"><img src="../../assets/navigation/left.png" alt=""></a>
                                 </div>
                             </li>
                             <li id="carousel__slide4">
@@ -44,8 +44,8 @@
                                     <h2>биба</h2>
                                     <p class="textabout">Шымыр Манап - "Болашақ" бағдарламасы бойынша Мюнхен техникалық университетінің (Германия) магистранты. Қазақстан даму банкінде стратегия және үлкен деректерді талдау департаментінің бас маманы. </p>
                                     <p class="textabout">“Заманауи технологияның күннен күнге ғарыш жылдамдығымен дамуы және олардың адам өмірінің ажырамас бөлігі болып жатқаны баршаға мәлім. Қазіргі таңда және болашақта заманның даму бағытына ілесу және кез келген саланың білікті маманы болу үшін IT саласын білу қажет. Себебі IT - ақылды тетіктер саласы. Түркістан жастарының  заманауи салада өз орнын табуына және талаптының талабын ашуға игі ықпал ету мақсатында "ITalap" бағдарламалау және робототехника оқу орталығын ашуды жөн көрдік. “</p>
-                                    <a href="#carousel__slide3" class="carousel__prev">go to next slide</a>
-                                    <a href="#carousel__slide5" class="carousel__next">go to next slide</a>
+                                    <a href="#carousel__slide3" class="carousel__prev"><img src="../../assets/navigation/right.png" alt=""></a>
+                                    <a href="#carousel__slide5" class="carousel__next"><img src="../../assets/navigation/left.png" alt=""></a>
                                 </div>
                             </li>
                             <li id="carousel__slide5">
@@ -54,37 +54,49 @@
                                     <h2>акерке</h2>
                                     <p class="textabout">Шымыр Манап - "Болашақ" бағдарламасы бойынша Мюнхен техникалық университетінің (Германия) магистранты. Қазақстан даму банкінде стратегия және үлкен деректерді талдау департаментінің бас маманы. </p>
                                     <p class="textabout">“Заманауи технологияның күннен күнге ғарыш жылдамдығымен дамуы және олардың адам өмірінің ажырамас бөлігі болып жатқаны баршаға мәлім. Қазіргі таңда және болашақта заманның даму бағытына ілесу және кез келген саланың білікті маманы болу үшін IT саласын білу қажет. Себебі IT - ақылды тетіктер саласы. Түркістан жастарының  заманауи салада өз орнын табуына және талаптының талабын ашуға игі ықпал ету мақсатында "ITalap" бағдарламалау және робототехника оқу орталығын ашуды жөн көрдік. “</p>
-                                    <a href="#carousel__slide4" class="carousel__prev">go to next slide</a>
-                                    <a href="#carousel__slide1" class="carousel__next">go to next slide</a>
+                                    <a href="#carousel__slide4" class="carousel__prev"><img src="../../assets/navigation/right.png" alt=""></a>
+                                    <a href="#carousel__slide1" class="carousel__next"><img src="../../assets/navigation/left.png" alt=""></a>
                                 </div>
+                            </li>
+                            <li class="nav-dots">
+
                             </li>
                         </ul>
                     </div>
-            </div>  -->
+            </div> 
         </section>
     </div>
 </template>
  
 
 <style scoped>
-.carousel-item {
-    height: 32rem;
-    background: #777;
-    position: relative;
+.carousel__slide1,
+.carousel__slide2, 
+.carousel__slide3,
+.carousel__slide4,
+.carousel__slide5 {
 }
-.container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
+.carousel__main1 li{
+    padding-top: 150px;
+    
 }
-/* .carousel__prev {
+
+
+.carousel__prev img{
+    width: 50px;
+}
+.carousel__next img {
+    width: 50px;
+}
+.carousel__prev {
     position: absolute;
-    background-image: url('../../assets/navigation/left.png');
+    left: 10px;
+    top: 200px;
 }
 .carousel__next {
-    background-image: url('../../assets/navigation/right.png');
+    position: absolute;
+    top: 200px;
+    right: 10px;
 }
 .textabout {
     font-size: 16px;
@@ -92,8 +104,9 @@
     padding-right: 20px;
 }
 .carousel, ul {
-    height: 500px;
-    padding-top: 40px;
+    height: 700px;
+    padding-top: 200px;
+    margin-bottom: 200px;
 }
 .carousel {
     width: 1200px;
@@ -112,7 +125,7 @@
 .carousel ul {
     position: absolute;
     left: 0;
-    top: -15px;
+    top: -100px;
     width: 9000px;
     list-style: none;
     margin-left: -50px;
@@ -132,21 +145,21 @@
     width: 1200px;
 }
 .carousel ul {
-    animation: slide-animation 150s infinite;
+    animation: slide-animation 15s infinite;
 }
 /* .carousel ul:hover{
     animation-play-state: paused;
-} 
-@keyframes slide-animation {
+}  */
+/* @keyframes slide-animation {
     10%{left: 0}
     20%{left: -1200px}
-    39%{left: -1200px}
+    30%{left: -1200px}
     40%{left: -2400px}
-    59%{left: -2400px}
+    50%{left: -2400px}
     60%{left: -3600px}
-    79%{left: -3600px}
+    70%{left: -3600px}
     80%{left: -4800px}
-    99%{left: -4800px}
+    90%{left: -4800px}
     100%{left: 0}
 } */
 .avatar147{
