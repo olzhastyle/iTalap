@@ -1,35 +1,32 @@
 <template>
-<div>
-      <div class="qwert111">
-        <!-- <Nuxt /> -->
+  <div>
+    <div class="qwert111">
+      <!-- <Nuxt /> -->
       <Homepage />
-     <!--  <Aboutus /> -->
+      <!--  <Aboutus /> -->
       <!-- <Lessons /> -->
       <Lessonskz />
-      <Aboutusone />
-      </div>
-</div>
+      <Aboutus />
+    </div>
+  </div>
 </template>
 
 <script>
-import Homepage from '../pages/components/Homepage.vue';
-import Aboutus from '../pages/components/Aboutus.vue';
-import Lessons from '../pages/components/Lessons.vue';
-import Lessonskz from '../pages/components/Lessonskz.vue';
-
+import Homepage from "../pages/components/Homepage.vue";
+import Aboutus from "../pages/components/Aboutus.vue";
+import Lessons from "../pages/components/Lessons.vue";
+import Lessonskz from "../pages/components/Lessonskz.vue";
 
 export default {
-  components:{
+  components: {
     Homepage,
     Aboutus,
-    Lessons,
-    Lessonskz
-  }
-}
+    Lessonskz,
+  },
+};
 </script>
 
 <style>
-
 .qwert111 {
   position: relative;
   margin-top: auto;
@@ -38,5 +35,4 @@ export default {
   text-align: center;
   margin: 0 auto;
 }
-
 </style>
