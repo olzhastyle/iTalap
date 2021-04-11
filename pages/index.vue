@@ -16,6 +16,8 @@ import Homepage from '../pages/components/Homepage.vue';
 import Aboutus from '../pages/components/Aboutus.vue';
 import Lessons from '../pages/components/Lessons.vue';
 import Lessonskz from '../pages/components/Lessonskz.vue';
+import Aboutusone from '../pages/components/Aboutusone.vue';
+
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     Homepage,
     Aboutus,
     Lessons,
-    Lessonskz
+    Lessonskz,
+    Aboutusone
   }
 }
 </script>

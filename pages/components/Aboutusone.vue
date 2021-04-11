@@ -1,56 +1,41 @@
 <template>
-    <b-carousel
-    id="carousel"
-    v-model="slide"
-    :interval="3500"
-    controls
-    indicators
-    style="text-shadow: 1px 1px 2px #333"
-    @sliding-start="onSlideStart"
-    @sliding-end="onSlideEnd"
-    >
-    <div>
-        <b-carousel-slide >
-            <h1>olzhas</h1>
-            <h1>manap</h1>
-            <h1>damira</h1>
-        </b-carousel-slide>
-    </div>
-    </b-carousel>
+  <div class="carousel-wrapper">
+    <client-only>
+      <carousel v-bind="options">
+        <slide v-for="i in 5" :key="i" class="img-wrapper">
+          <img :src="`../../assets/${i}-aboutus.jpg`" />
+        </slide>
+      </carousel>
+    </client-only>
+  </div>
 </template>
 
 <script>
-import axios from 'axios'
 export default {
-    data() {
-        return {
-            Images: [],
-            slide: 0,
-            sliding:null
-        }
-    },
-    methods: {
-        onSlideStart(slide){
-            this.sliding = true
-        },
-        onSlideEnd(slide){
-            this.sliding = false
-        }
-    },
-    async asyncData(){
-        try{
-            let {data} = await axios.get('https://jsonplaceholder.typicode.com/photos')
-            return {Images: data}
-        } catch(err){
-            console.log(err)
-
-        }
+  data() {
+    return {
+      options: {
+        loop: true,
+        perPage: 3,
+        paginationEnabled: false
+      }
     }
-
+  }
 }
 </script>
 
-
-<style scoped>
-
+<style lang="scss">
+.carousel-wrapper {
+  padding: 40px;
+  height: 150px;
+  .VueCarousel-slide {
+    text-align: center;
+  }
+}
+.img-wrapper img {
+  margin: auto;
+  width: 200px;
+  height: 100px;
+  background-image: linear-gradient(gray 100%, transparent 0);
+}
 </style>

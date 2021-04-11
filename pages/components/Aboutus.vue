@@ -70,18 +70,6 @@
  
 
 <style scoped>
-.carousel__slide1,
-.carousel__slide2, 
-.carousel__slide3,
-.carousel__slide4,
-.carousel__slide5 {
-}
-.carousel__main1 li{
-    padding-top: 150px;
-    
-}
-
-
 .carousel__prev img{
     width: 50px;
 }
