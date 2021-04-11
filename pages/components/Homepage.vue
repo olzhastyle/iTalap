@@ -13,8 +13,7 @@
           <a
             target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLScrgwB-dxlWQUs0c74CyeZqaIepcmysNoAKL-DOOyjPBhiy3Q/viewform"
-            >Курсқа жазылу!</a
-          >
+            >Курсқа жазылу!</a>
         </div>
         <div class="button-about">
           <a href="/about">Курстар туралы...</a>
