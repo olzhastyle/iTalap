@@ -23,11 +23,11 @@
         <label for="tab-btn-9">Робототехника</label>
 
         <div id="content-1">
-          <img class="image123654" src="../../assets/robotic.jpg" alt="" />
+          <img class="image123654" src="../../assets/legowedo.jpg" alt="" />
           <p class="text46548"></p>
         </div>
         <div id="content-2">
-          <img class="image123654" src="../../assets/scratch.jpg" alt="" />
+          <img class="image123654" src="../../assets/scratch1.jpg" alt="" />
           <p class="text46548">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad
             perferendis adipisci, sunt fugiat neque reiciendis assumenda, quam
@@ -164,9 +164,10 @@
   margin-bottom: 30px;
 }
 .image123654 {
-  width: 100%;
+  width: 70%;
   border: 2px solid;
   border-radius: 25px;
+  height: auto;
 }
 .text46548 {
   font-size: 26px;

@@ -19,12 +19,13 @@ export default {
   css: [
     '@node_modules/bootstrap/dist/css/bootstrap.min.css',
     'bootstrap/dist/css/bootstrap.css',
-    'bootstrap-vue/dist/bootstrap-vue.css'
+    'bootstrap-vue/dist/bootstrap-vue.css',
+    'vue-slick-carousel/dist/vue-slick-carousel.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-
+    { src: './plugins/vue-slick-carousel.js' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

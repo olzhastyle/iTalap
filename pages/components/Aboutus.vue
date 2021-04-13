@@ -28,7 +28,7 @@
                   саласы. Түркістан жастарының заманауи салада өз орнын табуына
                   және талаптының талабын ашуға игі ықпал ету мақсатында
                   "ITalap" бағдарламалау және робототехника оқу орталығын ашуды
-                  жөн көрдік. “
+                  жөн көрдік.“
                 </p>
                 <a href="#carousel__slide5" class="carousel__prev"
                   ><img src="../../assets/navigation/right.png" alt=""
@@ -156,6 +156,21 @@
     </section>
   </div>
 </template>
+
+<script>
+
+export default ({
+  data() {
+    return {
+      slickOptions: {
+        slidesToShow:3,
+        arrows: false
+      }
+    }
+  }
+})
+</script>
+
  
 
 <style scoped>
@@ -167,9 +182,11 @@
 
 .carousel__prev img {
   width: 50px;
+
 }
 .carousel__next img {
   width: 50px;
+
 }
 .carousel__prev {
   position: absolute;
@@ -196,7 +213,8 @@ ul {
   margin-bottom: 200px;
 }
 .carousel {
-  width: 100%;
+  width: 75%;
+  height: 500px;
   margin: auto;
   overflow: hidden;
   margin-top: 100px;
@@ -208,7 +226,9 @@ ul {
   float: left;
   text-align: center;
   position: relative;
-  width: 11%;
+  width: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
   margin: auto;
 }
 .carousel-container p {
@@ -238,13 +258,19 @@ ul {
   margin: auto;
   padding: 0;
   width: 100%;
+
+}
+.carousel-container p{
+  margin: auto;
 }
 .carousel ul {
-  animation: slide-animation 50s infinite;
+  margin: auto;
+  /* animation: slide-animation 50s infinite; */
 }
 .carousel ul:hover {
   animation-play-state: paused;
 }
+/* 
 @keyframes slide-animation {
   0% {
     left: 10%;
@@ -277,9 +303,10 @@ ul {
     left: -310%;
   }
   100% {
-    left: 0;
+    left: 0%;
+
   }
-}
+} */
 .avatar147 {
   width: 150px;
   border: 2px solid;

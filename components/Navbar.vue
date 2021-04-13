@@ -33,14 +33,15 @@
             </nuxt-link>
           </li> -->
         </ul>
-        <a href="https://www.instagram.com/italap_turkestan/">
+        <a class="buttoninstagram" target="_blank" href="https://www.instagram.com/italap_turkestan/">
           <img
+            
             class="imageinstagram78963"
             src="../pages/components/assets/instagram.png"
             alt=""
           />
         </a>
-        <a href="https://www.instagram.com/italap_turkestan/">
+        <a class="buttonwhatsapp" target="_blank" href="https://www.instagram.com/italap_turkestan/">
           <img
             class="imagewhatsapp78963"
             src="../pages/components/assets/whatsapp.png"
@@ -168,4 +169,5 @@ img {
   height: 100px;
   width: 100%;
 }
+
 </style>
