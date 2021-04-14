@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <nuxt-link
               exact
               no-prefetch
@@ -21,27 +21,39 @@
             >
               Үйге
             </nuxt-link>
+          </li> -->
+          <li class="aboutSchool">
+            <nuxt-link active-class="active" class="nav-link" to="/about">
+              Мектеп туралы
+            </nuxt-link>
           </li>
           <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/about">
-              Аудитория
+              Курстар
             </nuxt-link>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/contacts">
               Байланыс
             </nuxt-link>
-          </li> -->
+          </li>
         </ul>
-        <a class="buttoninstagram" target="_blank" href="https://www.instagram.com/italap_turkestan/">
+        <a
+          class="buttoninstagram"
+          target="_blank"
+          href="https://www.instagram.com/italap_turkestan/"
+        >
           <img
-            
             class="imageinstagram78963"
             src="../pages/components/assets/instagram.png"
             alt=""
           />
         </a>
-        <a class="buttonwhatsapp" target="_blank" href="https://www.instagram.com/italap_turkestan/">
+        <a
+          class="buttonwhatsapp"
+          target="_blank"
+          href="https://www.instagram.com/italap_turkestan/"
+        >
           <img
             class="imagewhatsapp78963"
             src="../pages/components/assets/whatsapp.png"
@@ -60,33 +72,35 @@
   filter: opacity(0.3);
   position: absolute;
   left: 2%;
-  width: 20%;
+  width: 17%;
 }
 .oyuimage123 {
   filter: opacity(0.3);
   position: relative;
   float: right;
   right: 2%;
-  width: 20%;
+  width: 17%;
 }
 
 .imageinstagram78963 {
   filter: invert(1);
   width: 2.5rem;
   float: right;
-  right: -100px;
-  position: relative;
+  top: 14px;
+
+  position: absolute;
 }
 .imagewhatsapp78963 {
   filter: invert(1);
   width: 4rem;
   float: right;
-  right: 25%;
-  position: relative;
+  top: 2px;
+  margin-left: 50px;
+  position: absolute;
 }
 .navbar {
   float: none;
-  left: 44%;
+  margin: auto;
   top: 50px;
   transform: translate(-50%, -50%);
   font-size: 24px;
@@ -113,9 +127,8 @@ img {
 }
 .logologo123 {
   position: absolute;
-  float: left;
-  left: -100%;
   top: -20px;
+  left: -150px;
 }
 
 .kz {
@@ -143,7 +156,10 @@ img {
   text-decoration-color: white;
   color: white;
   cursor: pointer;
+  width: 200px;
+  margin: auto;
 }
+
 .nav-link:after {
   content: "";
   display: block;
@@ -169,5 +185,9 @@ img {
   height: 100px;
   width: 100%;
 }
-
+.navbar-nav {
+  left: -130px;
+  position: relative;
+  margin: auto;
+}
 </style>
