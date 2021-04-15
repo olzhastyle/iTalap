@@ -23,7 +23,7 @@
             </nuxt-link>
           </li> -->
           <li class="aboutSchool">
-            <nuxt-link active-class="active" class="nav-link" to="/about">
+            <nuxt-link active-class="active" class="nav-link" to="/">
               Мектеп туралы
             </nuxt-link>
           </li>
@@ -38,30 +38,30 @@
             </nuxt-link>
           </li>
         </ul>
-        <a
-          class="buttoninstagram"
-          target="_blank"
-          href="https://www.instagram.com/italap_turkestan/"
-        >
-          <img
-            class="imageinstagram78963"
-            src="../pages/components/assets/instagram.png"
-            alt=""
-          />
-        </a>
-        <a
-          class="buttonwhatsapp"
-          target="_blank"
-          href="https://www.instagram.com/italap_turkestan/"
-        >
-          <img
-            class="imagewhatsapp78963"
-            src="../pages/components/assets/whatsapp.png"
-            alt=""
-          />
-        </a>
       </div>
     </nav>
+    <a
+      class="buttoninstagram"
+      target="_blank"
+      href="https://www.instagram.com/italap_turkestan/"
+    >
+      <img
+        class="imageinstagram78963"
+        src="../pages/components/assets/instagram.png"
+        alt=""
+      />
+    </a>
+    <a
+      class="buttonwhatsapp"
+      target="_blank"
+      href="https://www.instagram.com/italap_turkestan/"
+    >
+      <img
+        class="imagewhatsapp78963"
+        src="../pages/components/assets/whatsapp.png"
+        alt=""
+      />
+    </a>
     <!-- <a class="kz" href="/">KZ</a>
     <a class="ru" href="/">RU</a> -->
   </div>
@@ -84,18 +84,16 @@
 
 .imageinstagram78963 {
   filter: invert(1);
-  width: 2.5rem;
-  float: right;
-  top: 14px;
-
   position: absolute;
+  width: 2.5rem;
+  right: 400px;
+  top: 25px;
 }
 .imagewhatsapp78963 {
   filter: invert(1);
   width: 4rem;
-  float: right;
-  top: 2px;
-  margin-left: 50px;
+  top: 12px;
+  right: 450px;
   position: absolute;
 }
 .navbar {
