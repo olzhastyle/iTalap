@@ -32,11 +32,11 @@
               Курстар
             </nuxt-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <nuxt-link active-class="active" class="nav-link" to="/contacts">
               Байланыс
             </nuxt-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
@@ -184,7 +184,7 @@ img {
   width: 100%;
 }
 .navbar-nav {
-  left: -130px;
+  left: -30px;
   position: relative;
   margin: auto;
 }

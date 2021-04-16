@@ -24,24 +24,31 @@
 
         <div id="content-1">
           <img class="image123654" src="../../assets/legowedo.jpg" alt="" />
-          <p class="text46548"></p>
+          <p class="text46548">
+            Балаларға арналған робототехника - Lego WeDo курсы бастауыш сынып
+            оқушылары үшін әр түрлі Lego модельдерін құру арқылы робототехника
+            негіздерін және бағдарламалау тілін үйренуге мүмкіндік береді.
+            Қызықты курсты жас оқушылар оңай және тез игереді.
+          </p>
         </div>
         <div id="content-2">
           <img class="image123654" src="../../assets/scratch1.jpg" alt="" />
           <p class="text46548">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad
-            perferendis adipisci, sunt fugiat neque reiciendis assumenda, quam
-            aspernatur at impedit ut iusto mollitia expedita unde corrupti
-            exercitationem dolore eligendi!
+            Scratch тілі балаларға бағдарламалауды үйрету үшін арнайы жасалған.
+            Қызықты жобалар, жарқын суреттер, түсінікті нұсқаулар – осының
+            арқасында сіз бағдарламалау негіздерін оңай түсінесіз, компьютердің
+            логикасын түсінесіз, бұл болашақта күрделі бағдарламалау түрлеріне
+            көшуді жеңілдетеді.
           </p>
         </div>
         <div id="content-3">
           <img class="image123654" src="../../assets/mindstorm.jpg" alt="" />
           <p class="text46548">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad
-            perferendis adipisci, sunt fugiat neque reiciendis assumenda, quam
-            aspernatur at impedit ut iusto mollitia expedita unde corrupti
-            exercitationem dolore eligendi!
+            Робототехника Lego Mindstorms - Lego Education-ді оқыту үшін
+            конструкторларды қолдана отырып, қызықты және түсінікті жобаларды
+            әзірлейді. Олардың барлығы балаларға қызықты болып қана қоймай, өз
+            бетінше күрделі механизмдерді жасауға және құрастыруға мүмкіндік
+            береді.
           </p>
         </div>
         <div id="content-4">
@@ -79,10 +86,12 @@
           <img class="image123654" src="../../assets/3d.jpg" alt="" />
 
           <p class="text46548">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ad
-            perferendis adipisci, sunt fugiat neque reiciendis assumenda, quam
-            aspernatur at impedit ut iusto mollitia expedita unde corrupti
-            exercitationem dolore eligendi!
+            Blender – үшөлшемді компьютерлік графиканы құруға арналған
+            бағдарлама, ол өзіне модельдеу, анимация, рендринг, бейнелеу және
+            видеоны аудио арқылы өңдеу, сонымен қатар интерактивті ойын құру
+            құралдарын қоса қамтиды. Кәсіби жасаушы пәрмендердің (команда)
+            арқасында және жылдам әрі тұрақты дамуының әсерімен бұл бағдарлама
+            қазіргі таңда тегін 3D редакторлары арасында айрықша қолданысқа ие.
           </p>
         </div>
         <div id="content-9">

@@ -8,7 +8,6 @@
     <div class="text">
       <h1>iTalap</h1>
       <p>Талаптыға нұр жауар!</p>
-      <p>Salem Damira!</p>
       <div class="button">
         <div class="button-start">
           <a
